@@ -1,0 +1,140 @@
+nav {
+  min-height: 10vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    .nav-title {
+      font-style: italic;
+    }
+    img {
+      width: 40px;
+    }
+  }
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    div {
+      width: 32px;
+      height: 32px;
+      border: 1px solid #bcbcbc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: center;
+      border-radius: 50%;
+      cursor: pointer;
+      transition-duration: 0.3s;
+      background-color: #2b4169;
+      &:hover {
+        background-color: #314b7a41;
+      }
+      .moon-icon {
+        font-size: 22px;
+        color: #1a1a1a;
+      }
+      .sun-icon {
+        font-size: 22px;
+        color: rgb(235, 235, 58);
+      }
+    }
+  }
+  button {
+    border: 2px solid #2b4169;
+    background: transparent;
+    padding: 0.5rem 0.75rem;
+    color: #2b4169;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s all linear;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    &::selection {
+      background-color: transparent;
+      color: unset;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: -100%;
+      background-color: #2b4169;
+      transition: 0.3s all cubic-bezier(0.28, -0.01, 0, 0.75);
+      left: 0;
+      z-index: -1;
+    }
+    &:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    &:hover {
+      color: #f1f1f1;
+    }
+  }
+}
+
+.white-color {
+  color: #f1f1f1;
+  border: 2px solid #f1f1f1;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    background-color: #f1f1f1;
+    color: #2b4169;
+    transition-duration: 0.3s;
+    left: 0;
+    z-index: -1;
+  }
+  &:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &:hover {
+    color: #2b4169;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-title {
+    display: none;
+  }
+  .hidden-lib {
+    display: none;
+  }
+  button {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    > * {
+      padding-left: 0px;
+    }
+  }
+}
