@@ -36,7 +36,7 @@ const Library = ({
       }`}
     >
       <h2 className={`${dark ? " " : "light-theme-color"}`}>
-        Library {"asc" + libraryStatus}
+        Library
       </h2>
       <div className="library-songs">
         {songs.map((song) => {

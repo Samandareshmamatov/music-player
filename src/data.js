@@ -55,7 +55,88 @@ const childHoop = () => {
       id: uuidv4(),
       active: false,
       audio: "https://mp3.chillhop.com/serve.php/?mp3=49426"
-    }
+    },
+    {
+      name: "Bubble Bath",
+      cover: "https://chillhop.com/wp-content/uploads/2022/09/8c2eab8525ace609b0c68b7564eb085d2244ee09-1024x1024.jpg",
+      artist: "iiterate, Mr Slipz ",
+      color: ['#FBC979', "#EBEBF7"],
+      id: uuidv4(),
+      active: false,
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=49081"
+    },
+    {
+      name: "The Loveliest Dream",
+      cover: "https://chillhop.com/wp-content/uploads/2022/10/8b7ba4cdad98f47e0411cfe94c50cce4a68cb848-1024x1024.jpg",
+      artist: "Sofasound ",
+      color: ['#FBC979', "#EBEBF7"],
+      id: uuidv4(),
+      active: false,
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=45155"
+    },
+    {
+      name: "In Minutes",
+      cover: "https://chillhop.com/wp-content/uploads/2022/07/49bc1653b33bd42e570ecdeba7be86e8bd1b5c38-1024x1024.jpg",
+      artist: "Shrimpnose",
+      color: ['#FBC979', "#EBEBF7"],
+      id: uuidv4(),
+      active: false,
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=41689"
+    },
+    {
+      name: "Night Owl",
+      cover: "https://chillhop.com/wp-content/uploads/2022/05/5158b15bf8cb3b9d50588cfc31d36d28c816dc0c-1024x1024.jpg",
+      artist: "brillion",
+      color: ['#FBC979', "#EBEBF7"],
+      id: uuidv4(),
+      active: false,
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=35641"
+    },
+    {
+      name: "Kokon",
+      cover: "https://chillhop.com/wp-content/uploads/2022/05/d8344de22563af8eaec8f544c14711592eabef26-1024x1024.jpg",
+      artist: "Plusma, Guillaume Muschalle",
+      color: ['#FBC979', "#EBEBF7"],
+      id: uuidv4(),
+      active: false,
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=28895"
+    },
+    {
+      name: "Night Fishing",
+      cover: "https://chillhop.com/wp-content/uploads/2022/04/8cc8bdc59b30dd1f9d401cb485b8537d909e1f50-1024x1024.jpg",
+      artist: "C Y G N",
+      color: ['#FBC979', "#EBEBF7"],
+      id: uuidv4(),
+      active: false,
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=31591"
+    },
+    {
+      name: "A Reminder",
+      cover: "https://chillhop.com/wp-content/uploads/2022/05/c0c6175640eb9aa14b955ae91e255b3175de1c32-1024x1024.jpg",
+      artist: "Sleepy Fish, coa",
+      color: ['#FBC979', "#EBEBF7"],
+      id: uuidv4(),
+      active: false,
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=36925"
+    },
+    {
+      name: "Embers",
+      cover: "https://chillhop.com/wp-content/uploads/2022/01/d7c0bd347f56540babd9dd85454b93a89df84a15-1024x1024.jpg",
+      artist: "Molly McPhaul, Enluv",
+      color: ['#FBC979', "#EBEBF7"],
+      id: uuidv4(),
+      active: false,
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=30135"
+    },
+    {
+      name: "Santiago",
+      cover: "https://chillhop.com/wp-content/uploads/2022/01/1abf44fbb1364ca8435a8bbf4c5750a80947128f-1024x1024.jpg",
+      artist: "Psalm Trees, Moods",
+      color: ['#FBC979', "#EBEBF7"],
+      id: uuidv4(),
+      active: false,
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=30202"
+    },
   ]
 }
 
